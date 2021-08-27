@@ -1,0 +1,81 @@
+:root {
+    --teal: #00a3a8;
+}
+
+body {
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.top {
+    display: flex;
+}
+
+#highscores {
+    white-space: nowrap;
+}
+
+#highscores a {
+    color: white;
+    font-size: 25px;
+    align-content: flex-start;
+    margin: auto;
+    padding: 0px;
+}
+
+#highscores a:hover {
+    color: var(--teal);
+}
+
+#time {
+    color: white;
+    font-size: 25px;
+    align-content: flex-end;
+    margin: auto;
+    margin-left: 80%;
+    padding: 0px;
+}
+
+#timer {
+    color: white;
+    white-space: nowrap;
+}
+
+main {
+    color: white;
+    font-size: 20px;
+}
+
+.question {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#begin {
+    margin-left: 47.5%;
+    width: 5%;
+}
+
+#begin:hover {
+    background-color: var(--teal);
+    color: white;
+}
+
+.list-group {
+    width: 40%;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+.list-group button:hover {
+    background-color: var(--teal);
+    color: white;
+}
