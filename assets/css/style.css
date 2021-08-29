@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+button {
+    display: block;
+}
+
+.container {
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    user-select: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#question{
+    text-align: center;
+}
+ 
+#quiz {
+    visibility: hidden;
+}
+
+#initials {
+    visibility: hidden;
+}
+
+.btn-group-vertical > button {
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}
