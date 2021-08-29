@@ -14,23 +14,23 @@ var highscores = document.querySelector("#highscores");
 // quiz questions and answers
 var questionAnswers = [
     {
-        question: "Which of the following are looping structures in JavaScript?",
-        options: ["For loop", "While loop", "Do-while loop", "All the above"],
+        question: "In JavaScript, what is a block of code called that is used to perform a specific task?",
+        options: ["String", "Declaration", "Variable", "Function"],
         answer: 4
     },
     {
-        question: "Which of the following returns the calling string value converted to lower case?",
-        options: ["changeCase(case)", "toLower()", "toLowerCase()", "None of the above"],
+        question: "What is the element called that can continue to execute a block of code as long as the specified condition remains TRUE?",
+        options: ["Clone", "Repeater", "Loop", "None of the above"],
         answer: 3
     },
     {
-        question: "Which adds one or more elements to the end of an array and returns the new length of the array?",
-        options: ["push()", "map()", "pop()", "join()"],
+        question: "What kind of statement is used to execute actions based on a trigger or condition?",
+        options: ["Conditional Statement", "Fired Event", "Boolean Variable", "None of the Above"],
         answer: 1
     },
     {
-        question: "What HTML tag is JavaScript written under?",
-        options: ["<js>", "<script>","<javascript>", "<scripted>"],
+        question: "What is a JavaScript element that represents either TRUE or FALSE values?",
+        options: ["Condition", "Boolean","Event", "All of the Above"],
         answer: 2
     },
     {
@@ -39,8 +39,8 @@ var questionAnswers = [
         answer: 1
     },
     {
-        question: "How do you write 'Hello' in an alert box?",
-        options: ["alertBox('Hello');", "msg('Hello');", "msgBox('Hello');", "alert('Hello');"],
+        question: "What is the language or list of instructions that are executed by the computer (how JavaScript is built)?",
+        options: ["JSON", "Output", "Scope", "Syntax"],
         answer: 4
     },
     {
@@ -49,8 +49,8 @@ var questionAnswers = [
         answer: 4
     },
     {
-        question: "How do you round the number 5.25 to the nearest integer?",
-        options: ["rnd(5.25)", "Math.rnd(5.25)", "Math.round(5.25)", "round(5.25)"],
+        question: "What is the element used – and hidden – in code that explains things and makes the content more readable?",
+        options: ["Comparisons", "Notes", "Comments", "The Element Does Not Exist"],
         answer: 3
     },
     {
